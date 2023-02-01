@@ -14,7 +14,8 @@ setTimeout(() => {
 }, 10)
 
 console.log("third stamp"); // sync will be stamped after the first
-console.log("other stamp"); // since the v8 engine is LIFO those stamps will be excecuted before the setTimeout that is async
-console.log("other stamp"); // since the v8 engine is LIFO those stamps will be excecuted before the setTimeout that is async
-console.log("other stamp"); // since the v8 engine is LIFO those stamps will be excecuted before the setTimeout that is async
-console.log("other stamp"); // since the v8 engine is LIFO those stamps will be excecuted before the setTimeout that is async 
+
+
+ // since the v8 engine is LIFO those stamps will be excecuted before the setTimeout that is async
+console.log("other stamp");  
+console.log("other stamp"); 
