@@ -1,0 +1,20 @@
+/* INNER JOIN */
+
+// used to select columns from more than one table
+we use JOIN for a inner join, the we type ON and the condition (usually on the key like ids)
+
+es inner join
+SELECT * 
+FROM orders
+JOIN customers
+	ON orders.customer_id = customers.customer_id
+
+/* LEFT JOIN */
+you can use LEFT JOIN in case you want to add elements from the first table and, in case there is a missmatch
+the elements of the second table will be set to NULL
+
+ES.
+SELECT firstName, lastName, city, state
+FROM Person p
+LEFT JOIN Address a
+    ON p.personId  = a.personId 

@@ -1,0 +1,25 @@
+/* WHERE */
+
+WHERE is used as a filter in our data, we can alse use logic operators like AND or OR to combine more expressions
+Basic operations ' = < > (!= <> both not eq.) >= <='
+
+es.
+SELECT * FROM customers
+WHERE birth_date > '1990-01-01'
+
+To combine multiple or operation we can use IN
+SELECT * FROM customers
+WHERE state IN ("RM", "MI", "PL")
+
+/* LIKE operator */
+It's used for strings to se if a string start/ends with a letter
+es.
+SELECT * FROM customers
+WHERE last_name LIKE "%i%" // takes a last_name with i in eery position  (even beginnig and end)
+
+
+SELECT * FROM customers
+WHERE last_name LIKE "%i" // takes a last_name that starts with i
+
+SELECT * FROM customers
+WHERE last_name LIKE "_i" // takes a last_name exacly two positions and an i as last char

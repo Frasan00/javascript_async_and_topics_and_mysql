@@ -1,0 +1,7 @@
+/* types */
+
+Some types in mysql
+
+- int
+- varchar
+- date (expressed as xxxx-xx-xx year-month-day)

@@ -1,0 +1,15 @@
+/* Other operators */
+
+// NULL (missing values)
+TO find a missing op we use IS NULL
+
+SELECT * FROM customers WHERE address IS NULL;
+SELECT * FROM customers WHERE address IS NOT NULL;
+
+// ORDER BY (sorting)
+By default a query is sorted by id
+we can change it with ORDER BY value (in numerical order if in and alfabetical order if varchar)
+we can also use ASC DESC
+
+// LIMIT (limits the number of records we receive as an output)
+SELECT * FROM products LIMIT 3 // first 3 results

@@ -1,0 +1,16 @@
+/*SELECT*/
+
+SELECT is used to take the data we want from a table, we can explicit the columns we want or use "*" to grab all
+While selecting we can use DISTINCT to select only unique values
+We can also use as to give an alias to a column or a new column
+
+es.
+
+SELECT
+	last_name,
+    first_name,
+    points,
+    (points + 10) AS 'discount factor'
+ FROM customers
+
+ SELECT DISTINCT state FROM states;
