@@ -19,7 +19,7 @@ const c = 123
 // c = "kdkdk" gives error
 
 function es(){
-    // console.log(variabile); // undefined
+    // console.log(variabile); // undefined cause of hoisting, no err
     // console.log(variabile2); // err access before initialization
     // console.log(costante); // err access before initialization
     var variabile = 1; // it's already accessable in es() fun as undefined till initialized
