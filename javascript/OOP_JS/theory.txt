@@ -1,0 +1,21 @@
+### oop javascript ###
+
+# in js we can define an defined onject without define a class
+# a class follows 4 principales of oop:
+
+1) abstraction:
+    abstraction consists in simplify the creation and usability of a class hiding some attributes and methods
+    also, abstraction allows you to do complex things with the minimum amount of steps
+
+2) inheritence:
+    it's used to avoid reduntant code
+    we define an astract class with generic properies that many subclass can share and build other classes or objects with similar properies between them
+
+3) encapulation:
+    we use attributes with related methods to simplify the process of creating and using objects
+
+4) polymorphism
+    consists of making generic classes with generic behaviuors that will be defied in the specific classes that extend the primal abstract class
+
+### typescript ###
+typescript allowa you to go deeper in oop with protected attributes and methods, interfaces and types
